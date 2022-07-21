@@ -32,7 +32,7 @@ let dupes = [1,2,3,'a','a','f',3,4,2,'d','d'];
 
 function removeDups(arr) {
   
-  unique = arr.filter((item, pos)=> {
+  const unique = arr.filter((item, pos)=> {
     return arr.indexOf(item) == pos;
 })
   return unique
